@@ -1,0 +1,27 @@
+name: unet-segmentation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - h5py
+  - opencv
+  - scikit-image
+  - tqdm
+  - pandas
+  - seaborn
+  - pip
+  - pip:
+      - pillow
+      - pycocotools
+      # PyTorch with MPS support for Apple Silicon M2
+      - torch
+      - torchvision
+      - torchaudio
+      # Keep the TensorFlow components if you need them
+      - tensorflow-macos>=2.10.0
+      - tensorflow-metal

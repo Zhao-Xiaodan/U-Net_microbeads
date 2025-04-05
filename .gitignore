@@ -1,0 +1,19 @@
+
+# Ignore image files but keep directories
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.bmp
+*.gif
+*.raw
+*.webp
+
+# Specific large files
+
+# OS files
+.DS_Store
+*.pth
+*.h5
+*.keras
