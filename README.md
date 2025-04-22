@@ -221,6 +221,7 @@ The model uses an enhanced U-Net architecture with:
 4. **TensorFlow Issues on Mac M2**
    - The environment is configured for Metal acceleration
    - If issues persist, ensure TensorFlow-macOS and TensorFlow-Metal are properly installed
+<<<<<<< HEAD
 
 ## Citation
 
@@ -249,3 +250,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For questions or issues, please create an issue on the GitHub repository.
+=======
+>>>>>>> 6732058 (update README.md)
