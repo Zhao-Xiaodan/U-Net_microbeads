@@ -10,6 +10,10 @@
 *.raw
 *.webp
 
+# But track these specific image directories with Git LFS
+![02]coco_selected_microscopy_training/dataset/images/*.png
+![03]coco_selected_phone_training/dataset/images/*.png
+
 # Specific large files
 
 # OS files
