@@ -13,6 +13,7 @@
 # But track these specific image directories with Git LFS
 ![02]coco_selected_microscopy_training/dataset/images/*.png
 ![03]coco_selected_phone_training/dataset/images/*.png
+![04]new-microscopy-image_training/selected_cropped_images/*.png
 
 # Specific large files
 
